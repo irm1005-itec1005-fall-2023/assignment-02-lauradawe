@@ -31,20 +31,27 @@ header h1 {
   font-size: 4rem;
   float: left;
   text-align:left;
-  margin-top: 20px;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  padding-right: 20rem;
   color: #1986bc;
   background-color: #f2f6f4;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header h2 {
-  margin-left: auto;
+  padding: 0rem;
+  background-color: #f2f6f4;
+  color: #1986bc;
+  display: flex;
+  justify-content: space-between;
   float:left;
   text-align: left;
   font-size: 1.3rem;
   font-family:'Times New Roman', Times, serif;
 }
+
+
 header nav {
 display: flex;
  float: right;
@@ -71,6 +78,7 @@ header nav ul li a {
   text-decoration:none;
   font-size: 2rem;
 
+
 }
 
 header nav ul li a:hover {
@@ -81,25 +89,35 @@ header nav ul li a:hover {
 
 
 main h2{
-
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 
 main nav {
-  float: right;
+
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
+  justify-content: right;
   background-image: url("https://images.pexels.com/photos/7123120/pexels-photo-7123120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 
+main nav h2 {
+  float: right;
+  margin-right: 0px;
+  color: #1986bc;
+  padding-top: 2rem;
+
+}
+
 main nav ul {
+  float: right;
   list-style:none;
-  margin: 2rem;
+  margin: 1rem;
   padding: 1rem;
   font-size: 1.8rem;
   margin-bottom: 30rem;
+  margin-right: 9rem;
   background-color: #24212100;
 }
 
@@ -117,8 +135,6 @@ main nav ul li a:hover {
   color: rgb(78, 189, 248);
   text-decoration:underline;
 }
-
-
 
 #about
  {
@@ -139,28 +155,40 @@ main nav ul li a:hover {
   font-weight: 1500;
   text-align: center;
 }
-.backArrow {
-  display: block;
+.plated {
+  display: ;
   height: 40rem; 
-  width: 40rem;
+  width: 30rem;
   overflow: hidden;
-  float: left;
-  margin-right: 5rem;
-  margin-top: 2rem;
-  border-top-right-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-  border-style:dashed;
-  border-color: #1986bc;
+  float: lef;
+  margin-right: 0rem;
+  margin-top: 0rem;
   object-fit: cover;
+  flex: 1;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-style:dashed;
+  border-width: 0.2rem;
+  border-color: #1986bc;
 }
-
+#comments {
+  height: 40rem; 
+  width: 30rem;
+  overflow: hidden;
+  float: right;
+  margin-right: 0rem;
+  margin-top: 0rem;
+  flex: 1;
+  padding-bottom: 1rem;
+  justify
+}
 
  p{
   font-size: 1.3rem;
   font-family: 'Times New Roman', Times, serif;
   background-color: #f2f6f4;
   margin-bottom: 0rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
   padding: 2rem;
   padding-bottom: 3rem;
   text-align: center;
@@ -172,10 +200,11 @@ main nav ul li a:hover {
 
 main ul {
   background-color: #f2f6f4;
-  margin-left: 5rem;
+  margin-left: 0rem;
   margin-top: 0rem;
   margin-bottom: 5rem;
   float: right;
+  border-bottom-right-radius: 2rem;
 
 }
 
@@ -191,7 +220,29 @@ main li {
 
 }
 
+.comment {
+  display: flex;
+  justify-content: space-between;
+  
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
 
+
+.item:first-child {
+  margin-left: 0px;
+  background-color: #f2f6f4;
+}
+
+.item:nth-child(2nd) {
+
+}
+
+.item:last-child {
+  background-color: #f2f6f4;
+  margin-right: 0px;
+
+}
 
 
 .flex-container {
@@ -219,17 +270,6 @@ main li {
 
 }
 
-header h2 {
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 0;
-  padding: 1rem;
-  background-color: #fcfeff;
-  color: #1986bc;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 main {
 
@@ -255,8 +295,7 @@ main .box-container {
 }
 
 
-
-  #cakes {
+#cakes {
   padding: 2rem;
   background-color:#457b9dff;
   color:#f1faeeff;
@@ -300,12 +339,9 @@ table :nth-child(all) {
 
 
 
-
-
 #cupcakecollection {
   margin-top: rem;
 }
-
 
 
 .sr-only {
