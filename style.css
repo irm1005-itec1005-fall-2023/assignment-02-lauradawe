@@ -2,58 +2,331 @@
  * Assignment 02
  * CSS FILE
  */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
+style .body {
+  font-family:'Times New Roman', Times, serif;
   background-color: #f9ebf7;
   display: flex;
-  justify-content:center;
-  align-items: start;
+  justify-content:center;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-
- 
 
 header {
-  color: #f1faeeff;
-  margin: 0rem 0 0rem 0;
-  padding: 1rem
+  background-color: #f2f6f4;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
 }
 
-header .img {
-
+header img  {
+  max-width: 11rem ;
+  max-height: 40rem;
+  float: left;
 }
 
-header .body h1 {
-  margin: 10rem;
-  font-weight:900;
-  text-decoration:underline;
-  font-size: larger;
-  letter-spacing: 0.20rem;
+header h1 {
+  font-size: 4rem;
+  float: left;
+  text-align:left;
+  margin-top: 20px;
+  margin-bottom: 3rem;
+  color: #1986bc;
+  background-color: #f2f6f4;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+header h2 {
+  margin-left: auto;
+  float:left;
+  text-align: left;
+  font-size: 1.3rem;
+  font-family:'Times New Roman', Times, serif;
+}
 header nav {
-  margin: 8rem;
-
+display: flex;
+ float: right;
+ font-family: 'Times New Roman', Times, serif;
+ padding: 3rem;
+ margin-right: -4rem;
+ 
 }
 
 header nav ul {
-  list-style: none;
-  padding: 0rem;
+  list-style:none;
+  margin: 0rem;
+  padding: 1rem;
 }
 
-header a {
-  color: rgb(34, 41, 46);
+header nav ul li {
+  margin-left: 0rem;
+  display: inline-block;
+  margin-right: 5rem;
+}
+
+header nav ul li a {
+  color: #457b9dff;
   text-decoration:none;
-}
-
-header a:hover {
-  text-decoration: underline;
-}
-
-h1 {
   font-size: 2rem;
-  font-weight: bold;
+
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: #f5b5e0
+}
+
+
+
+main h2{
+
+  margin-left: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+main nav {
+  float: right;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  background-image: url("https://images.pexels.com/photos/7123120/pexels-photo-7123120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+main nav ul {
+  list-style:none;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 30rem;
+  background-color: #24212100;
+}
+
+main nav ul li {
+  margin: 1rem;
+  background-color: #24212100;
+}
+
+main nav ul li a {
+  color: #a72195;
+  
+}
+
+main nav ul li a:hover {
+  color: rgb(78, 189, 248);
+  text-decoration:underline;
+}
+
+
+
+#about
+ {
+  padding: 2rem;
+  background-color: #f2f6f4;
+  color: #1986bc;
+  width: 100%;
+  overflow: hidden;
+  max-width: 100rem;
+  max-height: 100rem;
+  margin-top: 7rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  font-size: 2rem;
+  border-top-right-radius: 2rem ;
+  border-top-left-radius: 2rem ;
+  font-weight: 1500;
   text-align: center;
-  color: #023047;
+}
+.backArrow {
+  display: block;
+  height: 40rem; 
+  width: 40rem;
+  overflow: hidden;
+  float: left;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-style:dashed;
+  border-color: #1986bc;
+  object-fit: cover;
+}
+
+
+ p{
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f2f6f4;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+
+}
+
+
+
+
+main ul {
+  background-color: #f2f6f4;
+  margin-left: 5rem;
+  margin-top: 0rem;
+  margin-bottom: 5rem;
+  float: right;
+
+}
+
+main li {
+  background-color: #f2f6f4;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  padding: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-top: 0rem;
+  border-bottom-right-radius: 2rem;
+
+}
+
+
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  border: 2rem solid #232722;
+  background-color: #f2f6f4;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+
+.item:first-child {
+  margin-left: 0px;
+  background-color: #f2f6f4;
+}
+
+.item:nth-child(2nd) {
+
+}
+
+.item:last-child {
+  background-color: #f2f6f4;
+  margin-right: 0px;
+
+}
+
+header h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: #fcfeff;
+  color: #1986bc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: ;  
+  padding-top: 3rem;
+
+}
+
+main .box-container {
+  padding: 2rem;
+  padding-top: 3rem;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 2rem;
+  background-color: #1986bc;
+  color: #141513;
+  border-radius: 2rem;
+  box-shadow: #07b1ef 0px 8px 40px;
+}
+
+
+
+  #cakes {
+  padding: 2rem;
+  background-color:#457b9dff;
+  color:#f1faeeff;
+  width: 100%;
+}
+
+section h3 {
+  margin-left: 2.7rem;
+  font-size: 1.5rem;
+  margin-bottom: -3rem;
+
+}
+
+table {
+  list-style:none;
+  margin: 4rem;
+  margin-left: 0%;
+  margin-bottom: -2rem;
+  padding: 2rem;
+  background-color: #f5b5e0;
+  align-items: center;
+  width: 100%
+  
+}
+
+thead {
+  font-size: 2rem;
+  font-family:cursive;
+}
+
+table tr td {
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+table :nth-child(all) {
+  color:rgb(67, 101, 149);
+  background-color:#f2dfef;
+ }
+
+
+
+
+
+#cupcakecollection {
+  margin-top: rem;
+}
+
+
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e3dfd4;
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  min-width: 100%;
+  min-height: 100%;
 }
