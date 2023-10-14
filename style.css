@@ -3,17 +3,468 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+header {
+  background-color: #f2f6f4;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+header img  {
+  max-width: 11rem ;
+  max-height: 40rem;
+  float: left;
 }
+
+header h1 {
+  font-size: 4rem;
+  float: left;
+  text-align:left;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  padding-right: 20rem;
+  color: #1986bc;
+  background-color: #f2f6f4;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h2 {
+  padding: 0rem;
+  background-color: #f2f6f4;
+  color: #1986bc;
+  display: flex;
+  justify-content: space-between;
+  float:left;
+  text-align: left;
+  font-size: 1.3rem;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+header nav {
+display: flex;
+ float: right;
+ font-family: 'Times New Roman', Times, serif;
+ padding: 3rem;
+ margin-right: -4rem;
+ 
+}
+
+header nav ul {
+  list-style:none;
+  margin: 0rem;
+  padding: 1rem;
+}
+
+header nav ul li {
+  margin-left: 0rem;
+  display: inline-block;
+  margin-right: 5rem;
+}
+
+header nav ul li a {
+  color: #457b9dff;
+  text-decoration:none;
+  font-size: 2rem;
+
+
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: #f5b5e0
+}
+
+
+
+main h2{
+  margin-left: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+main nav {
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: right;
+  background-image: url("https://images.pexels.com/photos/7123120/pexels-photo-7123120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+main nav h2 {
+  float: right;
+  margin-right: 0px;
+  color: #1986bc;
+  padding-top: 2rem;
+
+}
+
+main nav ul {
+  float: right;
+  list-style:none;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 30rem;
+  margin-right: 9rem;
+  background-color: #24212100;
+}
+
+main nav ul li {
+  margin: 1rem;
+  background-color: #24212100;
+}
+
+main nav ul li a {
+  color: #a72195;
+  
+}
+
+main nav ul li a:hover {
+  color: rgb(78, 189, 248);
+  text-decoration:underline;
+}
+
+#about {
+  padding: 2rem;
+  background-color: #f2f6f4;
+  color: #1986bc;
+  width: 100%;
+  overflow: hidden;
+  max-width: 100rem;
+  max-height: 100rem;
+  margin-top: 7rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  font-size: 2rem;
+  border-top-right-radius: 2rem ;
+  border-top-left-radius: 2rem ;
+  font-weight: 1500;
+  text-align: center;
+}
+.plated {
+  height: 40rem; 
+  width: 30rem;
+  overflow: hidden;
+  float: left;
+  margin-right: 0rem;
+  margin-top: 0rem;
+  object-fit: cover;
+  flex: 1;
+  border-bottom-left-radius: 2rem;
+  border-style: dashed;
+  border-width: 0.2rem;
+  border-color: #1986bc;
+}
+#comments {
+  height: 40rem; 
+  width: 30rem;
+  overflow: hidden;
+  float: right;
+  margin-right: 0rem;
+  margin-top: 0rem;
+  flex: 1;
+  padding-bottom: 1rem;
+  
+}
+
+p {
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f2f6f4;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+
+}
+
+
+main ul {
+  background-color: #f2f6f4;
+  margin-left: rem;
+  margin-top: 0rem;
+  margin-bottom: 5rem;
+  float: right;
+  border-bottom-right-radius: 2rem;
+
+}
+
+main li {
+  background-color: #f2f6f4;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  padding: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-top: 0rem;
+  border-bottom-right-radius: 2rem;
+
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+main .box-container {
+  padding: 2rem;
+  padding-top: 2rem;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 2rem;
+  background-color: #1986bc;
+  border-radius: 2rem;
+  box-shadow: #07b1ef 0px 8px 40px;
+}
+
+
+.item:first-child {
+  margin-left: 0px;
+  background-color: #f2f6f4;
+  text-align: center;
+  border-bottom-left-radius: 2rem;
+  padding: 1rem;
+}
+
+.item:nth-child(2) {
+  background-color: #f2f6f4;
+  text-align: center;
+  padding: 1rem;
+}
+
+.item:last-child {
+  background-color: #f2f6f4;
+  margin-right: 0px;
+  text-align: center;
+  border-bottom-right-radius: 2rem;
+  padding: 1rem;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1rem solid #f5b5e0;
+  background-color: #f2dfef;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-bottom: 2rem;
+}
+#cakedesigns {
+  padding-bottom: 1rem;
+  background-color:#1986bc;
+  color:#f1faeeff;
+  text-align:center;
+  font-size: 2rem;
+  font-weight: 1500;
+
+}
+
+
+#cakes {
+  border-radius: 2rem;
+  max-height: 30rem;
+  object-fit: cover;
+}
+
+main div p {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+
+}
+main section div p {
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+section h3 {
+  
+  font-size: 2rem;
+  background-color:#f2dfef;
+  text-align:  center;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+main .box-container-pink {
+  padding: 2rem;
+  padding-top: 2rem;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 5rem;
+  background-color: #f2dfef;
+  border-radius: 2rem;
+  border: 0.5rem solid #f5b5e0;
+}
+
+
+#cupcakecollection {
+  padding-top: 2rem;
+  margin: 0rem;
+  background-color:#f2f6f4;
+  color:#242121;
+  text-align:center;
+  font-size: 2rem;
+  font-weight: 1500;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;  
+
+}
+
+table {
+  padding-bottom: 2rem;
+  margin: auto;
+  background-color: #f2dfef;
+  text-align: center;  
+  justify-content: center;  
+  width:100%;
+
+}
+
+thead {
+  font-size: 2rem;
+  font-family:cursive;  
+
+}
+
+table tr td {
+  padding: 0.5rem;
+  margin: 1rem;  
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+table :nth-child(all) {
+  color:rgb(67, 101, 149);
+  background-color:#f2dfef; 
+ }
+
+ #bluecupcakes {
+  border-radius: 2rem;
+  max-height: 30rem;
+  object-fit: cover;
+
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e3dfd4;
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#formheading{
+  text-align: center;
+  font-weight: 1500;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  background-color: #1986bc;
+  color: #f2f6f4;
+  width: 100%;
+
+}
+
+form {
+  background-color: #c6dde9;
+}
+
+footer {
+  background-color: #f2f6f4;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+}
+
+footer img  {
+  max-width: 11rem ;
+  max-height: 40rem;
+  float: left;
+}
+
+footer h2 {
+  font-size: 3rem;
+  float: left;
+  text-align:left;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  color: #1986bc;
+  background-color: #f2f6f4;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer h3 {
+  padding: 0rem;
+  padding-top: 3rem;
+  background-color: #f2f6f4;
+  color: #1986bc;
+  display: flex;
+  justify-content: space-between;
+  float:left;
+  text-align: left;
+  font-size: 1.3rem;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+footer nav {
+display: flex;
+ float: right;
+ font-family: 'Times New Roman', Times, serif;
+ padding: 3rem;
+ margin-right: -4rem;
+ 
+}
+
+footer nav ul {
+  list-style:none;
+  margin: 0rem;
+  padding: 1rem;
+}
+
+footer nav ul li {
+  margin-left: 0rem;
+  display: inline-block;
+  margin-right: 5rem;
+}
+
+footer nav ul li a {
+  color: #457b9dff;
+  text-decoration:none;
+  font-size: 2rem;
+
+
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+  color: #f5b5e0
+}
+
