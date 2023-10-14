@@ -136,8 +136,7 @@ main nav ul li a:hover {
   text-decoration:underline;
 }
 
-#about
- {
+#about {
   padding: 2rem;
   background-color: #f2f6f4;
   color: #1986bc;
@@ -180,10 +179,10 @@ main nav ul li a:hover {
   margin-top: 0rem;
   flex: 1;
   padding-bottom: 1rem;
-  justify
+  
 }
 
- p{
+p {
   font-size: 1.3rem;
   font-family: 'Times New Roman', Times, serif;
   background-color: #f2f6f4;
@@ -196,11 +195,9 @@ main nav ul li a:hover {
 }
 
 
-
-
 main ul {
   background-color: #f2f6f4;
-  margin-left: 0rem;
+  margin-left: rem;
   margin-top: 0rem;
   margin-bottom: 5rem;
   float: right;
@@ -229,46 +226,7 @@ main li {
 }
 
 
-.item:first-child {
-  margin-left: 0px;
-  background-color: #f2f6f4;
-}
 
-.item:nth-child(2nd) {
-
-}
-
-.item:last-child {
-  background-color: #f2f6f4;
-  margin-right: 0px;
-
-}
-
-
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  border: 2rem solid #232722;
-  background-color: #f2f6f4;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-}
-
-
-.item:first-child {
-  margin-left: 0px;
-  background-color: #f2f6f4;
-}
-
-.item:nth-child(2nd) {
-
-}
-
-.item:last-child {
-  background-color: #f2f6f4;
-  margin-right: 0px;
-
-}
 
 
 main {
@@ -277,47 +235,127 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: ;  
   padding-top: 3rem;
-
 }
 
 main .box-container {
   padding: 2rem;
-  padding-top: 3rem;
+  padding-top: 2rem;
   max-height: 100%;
   max-width: 100%;
   margin: 2rem;
   background-color: #1986bc;
-  color: #141513;
   border-radius: 2rem;
   box-shadow: #07b1ef 0px 8px 40px;
 }
 
 
-#cakes {
-  padding: 2rem;
-  background-color:#457b9dff;
+.item:first-child {
+  margin-left: 0px;
+  background-color: #f2f6f4;
+  text-align: center;
+  border-bottom-left-radius: 2rem;
+  padding: 1rem;
+}
+
+.item:nth-child(2) {
+  background-color: #f2f6f4;
+  text-align: center;
+  padding: 1rem;
+}
+
+.item:last-child {
+  background-color: #f2f6f4;
+  margin-right: 0px;
+  text-align: center;
+  border-bottom-right-radius: 2rem;
+  padding: 1rem;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1rem solid #f5b5e0;
+  background-color: #f2dfef;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-bottom: 2rem;
+}
+#cakedesigns {
+  padding-bottom: 1rem;
+  background-color:#1986bc;
   color:#f1faeeff;
-  width: 100%;
+  text-align:center;
+  font-size: 2rem;
+  font-weight: 1500;
+
+}
+
+
+#cakes {
+  border-radius: 2rem;
+  max-height: 30rem;
+  object-fit: cover;
+
+
+}
+
+main div p {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+
+}
+main section div p {
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 section h3 {
-  margin-left: 2.7rem;
-  font-size: 1.5rem;
-  margin-bottom: -3rem;
+  
+  font-size: 2rem;
+  background-color:#f2dfef;
+  text-align:  center;
+  width: 100%;
 
+}
+
+main .box-container-pink {
+  padding: 2rem;
+  padding-top: 2rem;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 5rem;
+  background-color: #f2dfef;
+  border-radius: 2rem;
+  border: 0.5rem solid #f5b5e0;
+}
+
+
+#cupcakecollection {
+  padding-top: 2rem;
+  margin: 0rem;
+  background-color:#f2f6f4;
+  color:#242121;
+  text-align:center;
+  font-size: 2rem;
+  font-weight: 1500;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
 }
 
 table {
   list-style:none;
   margin: 4rem;
   margin-left: 0%;
-  margin-bottom: -2rem;
-  padding: 2rem;
-  background-color: #f5b5e0;
+  margin-bottom: 1rem;
+  background-color: #f2dfef;
   align-items: center;
-  width: 100%
+  width: 100%;
   
 }
 
@@ -336,12 +374,6 @@ table :nth-child(all) {
   color:rgb(67, 101, 149);
   background-color:#f2dfef;
  }
-
-
-
-#cupcakecollection {
-  margin-top: rem;
-}
 
 
 .sr-only {
